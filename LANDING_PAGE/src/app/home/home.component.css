@@ -1,0 +1,17 @@
+.order-button
+{
+  background-image: linear-gradient(to right,#0270D7,#0F8AFD);
+}
+button
+{
+  font-size: 10px;
+  width: 140px;
+  height: 40px;
+  color: #fff;
+}
+.photo
+{
+  width: 525px;
+  height: 400px;
+}
+
