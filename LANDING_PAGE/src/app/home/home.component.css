@@ -8,6 +8,16 @@ button
   width: 140px;
   height: 40px;
   color: #fff;
+  margin-left: .5rem;
+}
+.data
+{
+  width: 50%;
+}
+
+h1
+{
+  font-size: calc(1.375rem + 1.5vw) ;
 }
 .photo
 {
@@ -15,3 +25,72 @@ button
   height: 400px;
 }
 
+@media(max-width:640px) and (min-width:0px)
+{
+  .container
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .data
+  {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .data h1
+  {
+    font-size: 40px;
+    text-align: center;
+  }
+  button
+  {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+    float: inline-start;
+  }
+  .photo
+  {
+    margin-bottom: 50px;
+    width: 450px;
+  }
+}
+
+@media (max-width:740px) and (min-width:642px)
+ {
+  .data
+  {
+    width: 75%;
+  }
+  .data h1
+  {
+    font-size: 30px;
+  }
+  .photo{
+    width: 200px;
+    height: 270px;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width:900px) and (min-width:742px)
+{
+  .data
+  {
+    width: 75%;
+  }
+  .data h1
+  {
+    font-size: 30px;
+  }
+  .photo{
+    width: 250px;
+    height: 350px;
+    margin-top: 50px;
+  }
+  button
+  {
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+}
