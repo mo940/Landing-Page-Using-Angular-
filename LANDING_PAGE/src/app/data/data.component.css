@@ -1,0 +1,39 @@
+.row , .source
+{
+  margin-left:3rem ;
+}
+
+img
+{
+  width: 80px;
+}
+
+
+@media (max-width:760px) and (min-width:0px)
+{
+.row
+{
+    margin-left: 0px;
+}
+.source
+{
+  margin-left: 0px;
+  margin-bottom: 8px;
+  width: 100%;
+}
+}
+
+@media (max-width:900px) and (min-width:761px)
+{
+  .row
+  {
+    margin: 0px;
+    float: inline-start;
+  }
+  .source
+  {
+    margin-left: 0px;
+    margin-bottom: 8px;
+    width: 50%;
+  }
+}
