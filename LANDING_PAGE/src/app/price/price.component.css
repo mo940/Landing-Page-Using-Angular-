@@ -1,0 +1,63 @@
+img
+{
+  top: 0px;
+  width: 368px;
+  height: 450px;
+}
+.photo
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  font-size: 10px;
+  display: inline;
+}
+
+i{
+  color: darkgreen;
+  font-size: 15px;
+}
+
+button
+{
+  font-size: 10px;
+  width:100%;
+  height: 40px;
+}
+
+.data
+{
+  border: solid  #2C3039 5px ;
+  background-color: #2C3039;
+  width: 290px;
+  height: 430px;
+  border-radius: 5%;
+  left: 35%;
+}
+
+@media (max-width:549px) and (min-width:0px) {
+  .data
+  {
+    left: 100px;
+  }
+
+  }
+
+@media (max-width:769px) and (min-width:550px) {
+.data
+{
+  left: 130px;
+}
+
+}
+
+
+@media (max-width:900px) and (min-width:770px) {
+.data
+{
+  left: 230px;
+}
+}
