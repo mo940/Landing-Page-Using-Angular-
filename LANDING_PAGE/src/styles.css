@@ -8,7 +8,12 @@ body
   font-family: "Funnel Display", sans-serif;
 }
 
-p
+p,span
 {
   color: #8A94A7;
+}
+
+.order-button
+{
+  background-image: linear-gradient(to right,#0270D7,#0F8AFD);
 }

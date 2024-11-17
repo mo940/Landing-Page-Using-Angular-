@@ -1,7 +1,9 @@
+
 .row , .source
 {
   margin-left:3rem ;
 }
+
 
 img
 {
@@ -14,6 +16,7 @@ img
 .row
 {
     margin-left: 0px;
+    flex-wrap: nowrap;
 }
 .source
 {
@@ -28,7 +31,6 @@ img
   .row
   {
     margin: 0px;
-    float: inline-start;
   }
   .source
   {

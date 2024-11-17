@@ -16,7 +16,7 @@ import { PriceComponent } from './price/price.component';
     HeaderComponent,
     DataComponent,
     FooterComponent,
-    PriceComponent
+    PriceComponent,
   ],
   imports: [
     BrowserModule,
